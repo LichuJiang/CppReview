@@ -5,6 +5,7 @@ double c=a/b;//答案会是1
 double c=static_cast<double>(a)/b;//答案为1.66667
 ```
 
+尽量用 {}初始化，优点是会有边界检查
 
 
 ```c++
