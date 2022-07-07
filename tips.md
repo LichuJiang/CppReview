@@ -2,7 +2,7 @@
 int a=5;
 int b=3;
 double c=a/b;//答案会是1
-double c=static_cast<double>(a)/b;//答案为1.6666667
+double c=static_cast<double>(a)/b;//答案为1.66667
 ```
 
 
