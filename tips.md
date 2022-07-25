@@ -28,4 +28,6 @@ string s2="bcd";
 s2=s1+"bdcsda";//correct
 s2="asdasd"+"zxczxczcx";//incorrect
 ```
-c++的string中，+的两端要么全是string，要么一个string一个c风格字符串，不能全是c风格字符串(c style literal)
+c++的string中，+的两端要么全是string，要么一个string一个c风格字符串，不能全是c风格字符串(c style literal)  
+pair的使用技巧：  
+https://blog.csdn.net/sevenjoin/article/details/81937695
