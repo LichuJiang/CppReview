@@ -30,4 +30,27 @@ s2="asdasd"+"zxczxczcx";//incorrect
 ```
 c++的string中，+的两端要么全是string，要么一个string一个c风格字符串，不能全是c风格字符串(c style literal)  
 pair的使用技巧：  
-https://blog.csdn.net/sevenjoin/article/details/81937695
+https://blog.csdn.net/sevenjoin/article/details/81937695  
+
+二进制小技巧：  
+将整型数字转化为1：  
+```c++
+int a=10;
+cout<<bitset<8>(a);
+//输出00001010
+//其中8代表展示多少位
+```
+计算某个数二进制的形式下有多少个1：  
+```c++
+int a=10;
+bitset<8> foo(a);
+cout<<foo.count();
+//输出2
+```
+方法二：  
+```c++
+int a=10;
+int count=__builtin_popcount(a);
+cout<<count;
+//输出2
+```
