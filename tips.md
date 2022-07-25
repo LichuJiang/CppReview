@@ -31,6 +31,14 @@ s2="asdasd"+"zxczxczcx";//incorrect
 c++的string中，+的两端要么全是string，要么一个string一个c风格字符串，不能全是c风格字符串(c style literal)  
 pair的使用技巧：  
 https://blog.csdn.net/sevenjoin/article/details/81937695  
+pair 还可以这样取：  
+```c++
+unordered_map<int,int>a{{1,2}};
+for(auto &[n1,n2]:a){
+    cout<<n1<<","<<n2;
+}
+//输出1，2
+```
 
 二进制小技巧：  
 将整型数字转化为1：  
